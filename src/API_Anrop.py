@@ -5,7 +5,7 @@ import time
 # Ändringsbara variabler (Om data för andra nyckeltal eller år vill hämtas, lägg till dessa i respektive textsträng):
 # Programmet tar ~15-20 min att köra, körs bara vid ny inhämtning av data från kolada.
 
-NYCKELTAL = "N15419,N15505,N15436,U15461,N15485,N15488,N15574,N15573,N15572,N15571,N15570,N15569,N15814,N15034,N15008,N15902,N15823,N15820"
+NYCKELTAL = "N15419,N15505,N15436,U15461,N15485,N15488,N15574,N15573,N15572,N15571,N15570,N15569,N15814,N15034,N15008,N15902,N15823,N15820,K01902,K02921"
 YEARS = "2020,2019,2018,2017"
 
 
