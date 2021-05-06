@@ -1,0 +1,9 @@
+Öppna Jupyter Notebook
+
+
+
+CD C:\Users\mfor\Application Data\GitHub\KommunAnalys\src [för att ändra sökväg]
+
+jupyter lab main_voila.ipynb [för att starta JN]
+
+CTRL+BREAK [för att säkerställa att lokalkoppling bryts]
