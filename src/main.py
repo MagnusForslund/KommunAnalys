@@ -75,13 +75,6 @@ class interactive_diagrams:
         self._5_drop_keyword = Dropdown(self._5_keydesc,"Nyckeltal: ")
         self._5 = diagram_5()
 
-	self._6_keywords = ["N02904", "N31816"]
-        self._6_keydesc = [pf.key_to_desc[k] for k in self._6_keywords]
-        self._6_drop_keys = Dropdown(self._6_keydesc, 'Nyckeltal: ')
-        self._6_drop_years = Dropdown(self._years, 'År: ')
-        self._6_drop_munis = Dropdown(self._munis,'Kommun: ')
-        self._6_drop_sekom = Dropdown(self._sekom, "Kommungrupp: ")
-        self._6 = diagram_6()
 
     def plot1(self):
         """
