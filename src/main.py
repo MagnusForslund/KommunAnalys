@@ -75,6 +75,14 @@ class interactive_diagrams:
         self._5_drop_keyword = Dropdown(self._5_keydesc,"Nyckeltal: ")
         self._5 = diagram_5()
 
+	self._6_keywords = ["N02904", "N31816"]
+        self._6_keydesc = [pf.key_to_desc[k] for k in self._6_keywords]
+        self._6_drop_keys = Dropdown(self._6_keydesc, 'Nyckeltal: ')
+        self._6_drop_years = Dropdown(self._years, 'År: ')
+        self._6_drop_munis = Dropdown(self._munis,'Kommun: ')
+        self._6_drop_sekom = Dropdown(self._sekom, "Kommungrupp: ")
+        self._6 = diagram_6()
+
     def plot1(self):
         """
         Binder Dropdown-menyerna till plottar, och visar dem.
@@ -97,6 +105,13 @@ class interactive_diagrams:
     def plot5(self):
         alter_widget_placement(widgets.interactive(self._5.update,year=self._5_drop_years.get(),
         kommun=self._5_drop_munis.get(),keyword_desc=self._5_drop_keyword.get()),cols=3)
+ 
+def plot6(self):
+        """
+        Binder Dropdown-menyerna till plottar, och visar dem.
+        """
+        alter_widget_placement(widgets.interactive(self._6.update,keyword_desc=self._1_drop_keys.get(),year=self._6_drop_years.get(),
+        kommun=self._6_drop_munis.get(), sekom=self._6_drop_sekom.get()),cols=2)
 
 
 

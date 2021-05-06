@@ -34,7 +34,9 @@ key_to_desc = {
         "N15008": "Kostnad för kommunal grundskola åk 1-9, kr/elev",
         "N15902": "Nyinvandrade och elever med okänd bakgrund i kommunal grundskola åk. 1-9, andel (%)",
         "N15823": "Nyinvandrade och elever med okänd bakgrund i år 9, kommunala skolor, andel (%)",
-        "N15820": "Elever vars föräldrar har eftergymnasial utbildning, åk 1-9 i kommunal grundskola, lägeskommun, andel (%)"
+        "N15820": "Elever vars föräldrar har eftergymnasial utbildning, åk 1-9 i kommunal grundskola, lägeskommun, andel (%)",
+	"N02904": "Invånare 0-19 år i ekonomiskt utsatta hushåll, andel (%)",
+	"N31816": "Vuxna biståndsmottagare med långvarigt ekonomiskt bistånd, andel (%) av befolkningen"
 }
 
 desc_to_key = {v:k for k,v in key_to_desc.items()}
